@@ -1,0 +1,13 @@
+.test {
+width: 85px;
+height: 70px;
+border-radius: 50px;
+position: relative;
+animation: ili 7s infinite;
+}
+@keyframes ili {
+0% {left: 0px;}
+25% {left: 400px; background: rgb(51 204 0);}
+75% {left: 200px;}
+100% {left: 0px; background: rgb(204 204 51);}
+}
